@@ -1,7 +1,9 @@
 # WYCCquptForiOS
 半期考核感觉写的太菜了，重写一遍，想分步尽量实现功能吧
 用的swift，试试这个语言，感觉比oc方便啊（我oc太菜了）
-导入的reamlswift框架太大了，没上传成功，只传了代码
+-------
+导入的reamlswift框架太大了，没上传成功，只传了代码，reamlswift的GitHub地址：https://github.com/realm/realm-cocoa/
+-------
 ## 功能：
 * 登陆界面出入账号后能判断登陆成功没有，弹出提示框
 * 登陆成功后会把获取的用户信息存到数据库里（如果数据库里没有数据的话）
