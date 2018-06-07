@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4FB8FFC059598D0927179C95 /* Pods_WYCCquptForiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54BB69CC5C95CADC39DA477B /* Pods_WYCCquptForiOS.framework */; };
+		D0242AA420C18FFD00D2309C /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D0242AA320C18FFD00D2309C /* logo.png */; };
+		D0242AA720C1907E00D2309C /* logo3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0242AA520C1907E00D2309C /* logo3x.png */; };
+		D0242AA820C1907E00D2309C /* logo2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0242AA620C1907E00D2309C /* logo2x.png */; };
+		D0242AAC20C1954B00D2309C /* WYCLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0242AAB20C1954B00D2309C /* WYCLoginViewController.swift */; };
+		D0242AAE20C1984800D2309C /* 登录页.png in Resources */ = {isa = PBXBuildFile; fileRef = D0242AAD20C1984800D2309C /* 登录页.png */; };
+		D0242AB020C1991A00D2309C /* 底板.png in Resources */ = {isa = PBXBuildFile; fileRef = D0242AAF20C1991A00D2309C /* 底板.png */; };
+		D0242AB220C19A9600D2309C /* no_course.png in Resources */ = {isa = PBXBuildFile; fileRef = D0242AB120C19A9600D2309C /* no_course.png */; };
+		D0242ABB20C1A5B200D2309C /* WYCLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0242AB920C1A0A900D2309C /* WYCLogin.swift */; };
+		D0242ABD20C252E000D2309C /* NetWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0242ABC20C252E000D2309C /* NetWork.swift */; };
+		D0242AC120C2689600D2309C /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0242AC020C2689600D2309C /* SwiftyJSON.framework */; };
+		D0242AC820C3158B00D2309C /* WYCClassBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0242AC720C3158B00D2309C /* WYCClassBookViewController.swift */; };
+		D0242ACA20C3B86600D2309C /* WYCClassBookDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0242AC920C3B86600D2309C /* WYCClassBookDisplayViewController.swift */; };
+		D0242ACC20C3B87900D2309C /* getClassBookData .swift in Sources */ = {isa = PBXBuildFile; fileRef = D0242ACB20C3B87900D2309C /* getClassBookData .swift */; };
+		D0242B1820C42E3A00D2309C /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0242B1620C42E3900D2309C /* Realm.framework */; };
+		D0242B1920C42E3A00D2309C /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D0242B1620C42E3900D2309C /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D0242B1A20C42E3A00D2309C /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0242B1720C42E3A00D2309C /* RealmSwift.framework */; };
+		D0242B1B20C42E3A00D2309C /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D0242B1720C42E3A00D2309C /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D0242B1E20C431CA00D2309C /* saveToDataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0242B1D20C431CA00D2309C /* saveToDataBase.swift */; };
+		D0242B2020C43AC900D2309C /* WYCYouAskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0242B1F20C43AC900D2309C /* WYCYouAskViewController.swift */; };
+		D0242B6A20C4516800D2309C /* 课表背景.png in Resources */ = {isa = PBXBuildFile; fileRef = D0242B6920C4516800D2309C /* 课表背景.png */; };
+		D0BDA51820C1880700EFABF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BDA51720C1880700EFABF4 /* AppDelegate.swift */; };
+		D0BDA51A20C1880700EFABF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BDA51920C1880700EFABF4 /* ViewController.swift */; };
+		D0BDA51D20C1880700EFABF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0BDA51B20C1880700EFABF4 /* Main.storyboard */; };
+		D0BDA51F20C1880800EFABF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0BDA51E20C1880800EFABF4 /* Assets.xcassets */; };
+		D0BDA52220C1880800EFABF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0BDA52020C1880800EFABF4 /* LaunchScreen.storyboard */; };
+		D0BDA6DE20C1882700EFABF4 /* 矩形 46.png in Resources */ = {isa = PBXBuildFile; fileRef = D0BDA60520C1882700EFABF4 /* 矩形 46.png */; };
+		D0BDA6DF20C1882700EFABF4 /* 课表图标.png in Resources */ = {isa = PBXBuildFile; fileRef = D0BDA60620C1882700EFABF4 /* 课表图标.png */; };
+		D0BDA6E020C1882700EFABF4 /* 我的图标.png in Resources */ = {isa = PBXBuildFile; fileRef = D0BDA60720C1882700EFABF4 /* 我的图标.png */; };
+		D0BDA6E320C1882700EFABF4 /* 发现图标.png in Resources */ = {isa = PBXBuildFile; fileRef = D0BDA60A20C1882700EFABF4 /* 发现图标.png */; };
+		D0BDA6FA20C1893C00EFABF4 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = D0BDA6F920C1893C00EFABF4 /* splash.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D0242B1C20C42E3A00D2309C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D0242B1B20C42E3A00D2309C /* RealmSwift.framework in Embed Frameworks */,
+				D0242B1920C42E3A00D2309C /* Realm.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		54BB69CC5C95CADC39DA477B /* Pods_WYCCquptForiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WYCCquptForiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		796B76B33DDFF375F0940DD0 /* Pods-WYCCquptForiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYCCquptForiOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-WYCCquptForiOS/Pods-WYCCquptForiOS.release.xcconfig"; sourceTree = "<group>"; };
+		8205A558963B1871FF0B8DD9 /* Pods-WYCCquptForiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYCCquptForiOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WYCCquptForiOS/Pods-WYCCquptForiOS.debug.xcconfig"; sourceTree = "<group>"; };
+		D0242AA320C18FFD00D2309C /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		D0242AA520C1907E00D2309C /* logo3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo3x.png; sourceTree = "<group>"; };
+		D0242AA620C1907E00D2309C /* logo2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo2x.png; sourceTree = "<group>"; };
+		D0242AAB20C1954B00D2309C /* WYCLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYCLoginViewController.swift; sourceTree = "<group>"; };
+		D0242AAD20C1984800D2309C /* 登录页.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "登录页.png"; path = "../../appicon/登录页.png"; sourceTree = "<group>"; };
+		D0242AAF20C1991A00D2309C /* 底板.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "底板.png"; sourceTree = "<group>"; };
+		D0242AB120C19A9600D2309C /* no_course.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = no_course.png; sourceTree = "<group>"; };
+		D0242AB920C1A0A900D2309C /* WYCLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYCLogin.swift; sourceTree = "<group>"; };
+		D0242ABC20C252E000D2309C /* NetWork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWork.swift; sourceTree = "<group>"; };
+		D0242AC020C2689600D2309C /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0242AC720C3158B00D2309C /* WYCClassBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYCClassBookViewController.swift; sourceTree = "<group>"; };
+		D0242AC920C3B86600D2309C /* WYCClassBookDisplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYCClassBookDisplayViewController.swift; sourceTree = "<group>"; };
+		D0242ACB20C3B87900D2309C /* getClassBookData .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "getClassBookData .swift"; sourceTree = "<group>"; };
+		D0242B1620C42E3900D2309C /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		D0242B1720C42E3A00D2309C /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
+		D0242B1D20C431CA00D2309C /* saveToDataBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = saveToDataBase.swift; sourceTree = "<group>"; };
+		D0242B1F20C43AC900D2309C /* WYCYouAskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYCYouAskViewController.swift; sourceTree = "<group>"; };
+		D0242B6920C4516800D2309C /* 课表背景.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "课表背景.png"; sourceTree = "<group>"; };
+		D0BDA51420C1880700EFABF4 /* WYCCquptForiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WYCCquptForiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0BDA51720C1880700EFABF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D0BDA51920C1880700EFABF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D0BDA51C20C1880700EFABF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0BDA51E20C1880800EFABF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0BDA52120C1880800EFABF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0BDA52320C1880800EFABF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0BDA60520C1882700EFABF4 /* 矩形 46.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "矩形 46.png"; sourceTree = "<group>"; };
+		D0BDA60620C1882700EFABF4 /* 课表图标.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "课表图标.png"; sourceTree = "<group>"; };
+		D0BDA60720C1882700EFABF4 /* 我的图标.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的图标.png"; sourceTree = "<group>"; };
+		D0BDA60A20C1882700EFABF4 /* 发现图标.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "发现图标.png"; sourceTree = "<group>"; };
+		D0BDA6F920C1893C00EFABF4 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0BDA51120C1880700EFABF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0242B1820C42E3A00D2309C /* Realm.framework in Frameworks */,
+				D0242AC120C2689600D2309C /* SwiftyJSON.framework in Frameworks */,
+				D0242B1A20C42E3A00D2309C /* RealmSwift.framework in Frameworks */,
+				4FB8FFC059598D0927179C95 /* Pods_WYCCquptForiOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0BDA50B20C1880700EFABF4 = {
+			isa = PBXGroup;
+			children = (
+				D0242B1620C42E3900D2309C /* Realm.framework */,
+				D0242B1720C42E3A00D2309C /* RealmSwift.framework */,
+				D0BDA52920C1882600EFABF4 /* appicon */,
+				D0BDA51620C1880700EFABF4 /* WYCCquptForiOS */,
+				D0BDA51520C1880700EFABF4 /* Products */,
+				D8626D7FF2E5156B5B72C631 /* Pods */,
+				F1317D73FB14F904CBF8BC9C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D0BDA51520C1880700EFABF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0BDA51420C1880700EFABF4 /* WYCCquptForiOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0BDA51620C1880700EFABF4 /* WYCCquptForiOS */ = {
+			isa = PBXGroup;
+			children = (
+				D0242AC720C3158B00D2309C /* WYCClassBookViewController.swift */,
+				D0BDA51720C1880700EFABF4 /* AppDelegate.swift */,
+				D0BDA51920C1880700EFABF4 /* ViewController.swift */,
+				D0BDA51B20C1880700EFABF4 /* Main.storyboard */,
+				D0242B1F20C43AC900D2309C /* WYCYouAskViewController.swift */,
+				D0242AB920C1A0A900D2309C /* WYCLogin.swift */,
+				D0242ABC20C252E000D2309C /* NetWork.swift */,
+				D0242AAB20C1954B00D2309C /* WYCLoginViewController.swift */,
+				D0242AC920C3B86600D2309C /* WYCClassBookDisplayViewController.swift */,
+				D0242ACB20C3B87900D2309C /* getClassBookData .swift */,
+				D0BDA51E20C1880800EFABF4 /* Assets.xcassets */,
+				D0BDA52020C1880800EFABF4 /* LaunchScreen.storyboard */,
+				D0BDA52320C1880800EFABF4 /* Info.plist */,
+				D0242B1D20C431CA00D2309C /* saveToDataBase.swift */,
+			);
+			path = WYCCquptForiOS;
+			sourceTree = "<group>";
+		};
+		D0BDA52920C1882600EFABF4 /* appicon */ = {
+			isa = PBXGroup;
+			children = (
+				D0242B6920C4516800D2309C /* 课表背景.png */,
+				D0BDA6F920C1893C00EFABF4 /* splash.png */,
+				D0242AA320C18FFD00D2309C /* logo.png */,
+				D0242AB120C19A9600D2309C /* no_course.png */,
+				D0242AA620C1907E00D2309C /* logo2x.png */,
+				D0242AA520C1907E00D2309C /* logo3x.png */,
+				D0242AAF20C1991A00D2309C /* 底板.png */,
+				D0242AAD20C1984800D2309C /* 登录页.png */,
+				D0BDA60520C1882700EFABF4 /* 矩形 46.png */,
+				D0BDA60A20C1882700EFABF4 /* 发现图标.png */,
+				D0BDA60720C1882700EFABF4 /* 我的图标.png */,
+				D0BDA60620C1882700EFABF4 /* 课表图标.png */,
+			);
+			path = appicon;
+			sourceTree = "<group>";
+		};
+		D8626D7FF2E5156B5B72C631 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8205A558963B1871FF0B8DD9 /* Pods-WYCCquptForiOS.debug.xcconfig */,
+				796B76B33DDFF375F0940DD0 /* Pods-WYCCquptForiOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F1317D73FB14F904CBF8BC9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0242AC020C2689600D2309C /* SwiftyJSON.framework */,
+				54BB69CC5C95CADC39DA477B /* Pods_WYCCquptForiOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0BDA51320C1880700EFABF4 /* WYCCquptForiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0BDA52620C1880800EFABF4 /* Build configuration list for PBXNativeTarget "WYCCquptForiOS" */;
+			buildPhases = (
+				EA4134B2A143E814E3C7759E /* [CP] Check Pods Manifest.lock */,
+				D0BDA51020C1880700EFABF4 /* Sources */,
+				D0BDA51120C1880700EFABF4 /* Frameworks */,
+				D0BDA51220C1880700EFABF4 /* Resources */,
+				2DB123C1806D02C5133DD609 /* [CP] Embed Pods Frameworks */,
+				D0242B1C20C42E3A00D2309C /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WYCCquptForiOS;
+			productName = WYCCquptForiOS;
+			productReference = D0BDA51420C1880700EFABF4 /* WYCCquptForiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0BDA50C20C1880700EFABF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = wyc;
+				TargetAttributes = {
+					D0BDA51320C1880700EFABF4 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+				};
+			};
+			buildConfigurationList = D0BDA50F20C1880700EFABF4 /* Build configuration list for PBXProject "WYCCquptForiOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0BDA50B20C1880700EFABF4;
+			productRefGroup = D0BDA51520C1880700EFABF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0BDA51320C1880700EFABF4 /* WYCCquptForiOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0BDA51220C1880700EFABF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0242AB020C1991A00D2309C /* 底板.png in Resources */,
+				D0BDA52220C1880800EFABF4 /* LaunchScreen.storyboard in Resources */,
+				D0BDA6FA20C1893C00EFABF4 /* splash.png in Resources */,
+				D0242AA420C18FFD00D2309C /* logo.png in Resources */,
+				D0BDA51F20C1880800EFABF4 /* Assets.xcassets in Resources */,
+				D0BDA6E020C1882700EFABF4 /* 我的图标.png in Resources */,
+				D0BDA6E320C1882700EFABF4 /* 发现图标.png in Resources */,
+				D0BDA6DE20C1882700EFABF4 /* 矩形 46.png in Resources */,
+				D0242B6A20C4516800D2309C /* 课表背景.png in Resources */,
+				D0242AA820C1907E00D2309C /* logo2x.png in Resources */,
+				D0BDA51D20C1880700EFABF4 /* Main.storyboard in Resources */,
+				D0242AAE20C1984800D2309C /* 登录页.png in Resources */,
+				D0BDA6DF20C1882700EFABF4 /* 课表图标.png in Resources */,
+				D0242AA720C1907E00D2309C /* logo3x.png in Resources */,
+				D0242AB220C19A9600D2309C /* no_course.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2DB123C1806D02C5133DD609 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WYCCquptForiOS/Pods-WYCCquptForiOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WYCCquptForiOS/Pods-WYCCquptForiOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA4134B2A143E814E3C7759E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WYCCquptForiOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0BDA51020C1880700EFABF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0242AC820C3158B00D2309C /* WYCClassBookViewController.swift in Sources */,
+				D0242ABB20C1A5B200D2309C /* WYCLogin.swift in Sources */,
+				D0242ABD20C252E000D2309C /* NetWork.swift in Sources */,
+				D0242B1E20C431CA00D2309C /* saveToDataBase.swift in Sources */,
+				D0242AAC20C1954B00D2309C /* WYCLoginViewController.swift in Sources */,
+				D0242ACC20C3B87900D2309C /* getClassBookData .swift in Sources */,
+				D0242B2020C43AC900D2309C /* WYCYouAskViewController.swift in Sources */,
+				D0242ACA20C3B86600D2309C /* WYCClassBookDisplayViewController.swift in Sources */,
+				D0BDA51A20C1880700EFABF4 /* ViewController.swift in Sources */,
+				D0BDA51820C1880700EFABF4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D0BDA51B20C1880700EFABF4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0BDA51C20C1880700EFABF4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D0BDA52020C1880800EFABF4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0BDA52120C1880800EFABF4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0BDA52420C1880800EFABF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D0BDA52520C1880800EFABF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0BDA52720C1880800EFABF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8205A558963B1871FF0B8DD9 /* Pods-WYCCquptForiOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = WYCCquptForiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wyc.WYCCquptForiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0BDA52820C1880800EFABF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 796B76B33DDFF375F0940DD0 /* Pods-WYCCquptForiOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = WYCCquptForiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wyc.WYCCquptForiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0BDA50F20C1880700EFABF4 /* Build configuration list for PBXProject "WYCCquptForiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0BDA52420C1880800EFABF4 /* Debug */,
+				D0BDA52520C1880800EFABF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0BDA52620C1880800EFABF4 /* Build configuration list for PBXNativeTarget "WYCCquptForiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0BDA52720C1880800EFABF4 /* Debug */,
+				D0BDA52820C1880800EFABF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0BDA50C20C1880700EFABF4 /* Project object */;
+}

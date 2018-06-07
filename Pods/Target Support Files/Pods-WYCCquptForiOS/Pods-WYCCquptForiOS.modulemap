@@ -1,0 +1,6 @@
+framework module Pods_WYCCquptForiOS {
+  umbrella header "Pods-WYCCquptForiOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
