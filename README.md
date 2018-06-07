@@ -17,7 +17,7 @@
 * UITabBarController显示的图标现在是用storyboard里属性设置直接设置的图标，但是尺寸不对，不知道怎么缩小
 -------
 附上GIF：
-WYCCquptForiOS/Untitled.gif
+![image](https://github.com/wycbug/WYCCquptForiOS/blob/master/Untitled.gif ) 
 
 
 
